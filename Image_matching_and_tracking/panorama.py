@@ -1,8 +1,8 @@
 import cv2, numpy as np
 
 
-imgL_path = '../img/restaurant1.jpg'
-imgR_path = '../img/restaurant2.jpg'
+imgL_path = 'left_image_path'
+imgR_path = 'right_image_path'
 imgL = cv2.imread(imgL_path)
 imgR = cv2.imread(imgR_path)
 
